@@ -1,0 +1,36 @@
+<header>
+  <p-button label="Add Player" icon="pi pi-plus" styleClass="p-button-sm p-button-secondary" (click)="goToAddPlayerPage()"></p-button>
+</header>
+
+<div class="table_container">
+  <table class="table">
+  <thead>
+      <tr>
+          <th>id</th>
+          <th>Role</th>
+          <th>Login</th>
+          <th>ELO</th>
+          <th>Gender</th>
+          <th>Category</th>
+          <th>Actions</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let player of playersList">
+          <td>{{player.id | slice:0:8}}</td>
+          <td>{{player.playerRole | role}}</td>
+          <td>{{player.login}}</td>
+          <td>{{player.elo}}</td>
+          <td>{{player.playerGender | gender}}</td>
+          <td>{{player.birthdate | category}}</td>
+          <td>
+            <button pButton pRipple type="button" icon="pi pi-search" class="p-button-rounded p-button-success" (click)="displayPlayer(player.id)"></button>
+            <button pButton pRipple type="button" icon="pi pi-times" class="p-button-rounded p-button-danger" (click)="removePlayer(player.id)"></button>
+
+          </td>
+      </tr>
+  </tbody>
+</table>
+
+</div>
+

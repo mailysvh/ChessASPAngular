@@ -1,0 +1,28 @@
+tout ce qui est commun à l'application
+pas de composant
+ex: enums, guards, interceptors, models, states, utils, validators
+
+ex: role enum:?
+export enum RoleEnum{ADMIN='admin', PLAYER = 'player'}
+car d'autres modules se sert des droits
+
+core:login model, token model
+
+
+For small size app, you need not to consider this. But if the app is large enough, you can modularize your app.
+
+For large apps with lots of routes, you may consider lazy loading. Lazy loading will help keep initial bundle size smaller, that means only core module will be loaded at first when the app get loaded. It will reduce initial loading time of your app.
+
+Core Module
+
+This module gets loaded with the app.
+Will contain singleton items - items that will be instantiated only once throughout the app or used in only one place.
+Will be imported only once by AppModule, no other feature module will import this module.
+You may put the following items in core module (you may put others if you see fit).
+
+models: models that are used in several feature modules.
+components: authentication, profile, header, footer, layout, home, error, dialog etc.
+services: singleton services that will be used by several feature modules, i.e. log, storage, shared, modal, authentication, file, spinner etc.
+
+
+service enum model guards, interceptors, resovlers

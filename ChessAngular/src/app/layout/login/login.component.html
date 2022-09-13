@@ -1,0 +1,18 @@
+<h2>Login to the plateform</h2>
+
+<form [formGroup]="fg" (ngSubmit)="submit()">
+  <div class="FormsDiv">
+    <div class="item">
+        <label>Username</label>
+        <input type="text" formControlName="username">
+    </div>
+    <div class="item">
+        <label>Password</label>
+        <input type="password" formControlName="password">
+    </div>
+  </div>
+    <div class="Btn">
+      <button pButton pRipple type="submit" label="Enter" class="p-button-sm p-button-rounded p-button-danger"></button>
+    </div>
+
+</form>

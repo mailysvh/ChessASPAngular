@@ -1,0 +1,28 @@
+.formsDiv{
+  display: flex;
+  justify-content: space-around;
+  min-width: 30%;
+  margin-top: 20px;
+  background-color: gainsboro;
+  overflow: auto;
+}
+
+
+h2{
+  margin-bottom: 20px;
+}
+
+
+.attributes, .values{
+  font-size: larger;
+  margin: 20px;
+}
+
+
+.values{
+  background-color: azure;
+}
+
+.item{
+  padding: 10px;
+}

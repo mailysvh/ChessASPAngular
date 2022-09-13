@@ -1,0 +1,24 @@
+<h2>Player : {{playertoRead.login}}</h2>
+<div class="formsDiv">
+    <div class="attributes">
+      <p class="item">Login: </p>
+      <p class="item">Email: </p>
+      <p class="item">Password:</p>
+      <p class="item">Birthdate: </p>
+      <p class="item">ELO: </p>
+      <p class="item">Gender: </p>
+      <p class="item">Tournaments:</p>
+    </div>
+    <div class="values">
+      <p class="item">{{playertoRead.login}}</p>
+      <p class="item">{{playertoRead.email}}</p>
+      <p class="item">{{playertoRead.password }}</p>
+      <p class="item">{{playertoRead.birthdate | date}}</p>
+      <p class="item">{{playertoRead.elo}}</p>
+      <p class="item">{{playertoRead.playerGender | gender}}</p>
+      <p class="item">{{playertoRead.tournaments | isNull}}</p>
+    </div>
+  </div>
+  <div class="item">
+    <button pButton pRipple type="submit" label="Update Infos" class="p-button-sm p-button-rounded p-button-danger" (click)="  goToUpdatePlayerPage
+      (playertoRead.id)"></button>

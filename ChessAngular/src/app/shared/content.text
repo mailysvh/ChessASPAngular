@@ -1,0 +1,9 @@
+contains commonly used directives, pipes and components that are re-used and referenced by components of feature modules
+imported by core module and other feature modules.
+imports: CommonModule, RouterModule, FormsModule, ReactiveFormsModule, Material modules and other library modules.
+declarations: components that will be re-used in different feature modules, i.e. HexadecimalCellEditorComponent.
+exports: all imported and declared items.
+providers: no services should be provided in this module.
+
+
+composants communs

@@ -1,0 +1,6 @@
+<div class="header">
+
+<h1>CheckMate</h1>
+<button pButton class="p-button" id="myButton"  icon="pi pi-sign-in" label="Login" (click)="goToLogin()" *ngIf="!isLogged"></button>
+<button pButton class="p-button" id="myButton2"  icon="pi pi-sign-in" label="Logout" (click)="logout()" *ngIf="isLogged"></button>
+</div>

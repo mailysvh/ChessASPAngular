@@ -1,0 +1,28 @@
+.FormsDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  //margin-left: 20px;
+  //background-color: yellow;
+}
+
+.item{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.Btn{
+  margin: 20px;
+}
+
+label{
+  margin-right: 10px;
+  display: inline-block;
+  width: 150px;
+}
+
+h2{
+  margin-bottom: 20px;
+  margin-left: 20px;
+}

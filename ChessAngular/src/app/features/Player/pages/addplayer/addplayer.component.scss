@@ -1,0 +1,27 @@
+.formsDiv{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 20px;
+  background-color: gainsboro;
+}
+
+.leftPanel, .rightPanel{
+  margin: 30px;
+}
+
+
+.item{
+  margin-top: 15px;
+}
+
+label{
+  margin-right: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  width: 100px;
+}
+
+h2{
+  margin-bottom: 20px;
+}

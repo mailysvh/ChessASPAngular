@@ -1,0 +1,41 @@
+.formsDiv{
+  display: flex;
+  //justify-content: space-around;
+  flex-wrap: wrap;
+  // flex-wrap: nowrap;
+  min-width: 30%;
+  margin-top: 20px;
+  background-color: gainsboro;
+  overflow: auto;
+}
+
+
+h2{
+  margin-bottom: 20px;
+}
+
+.LeftPanel , .RightPanel{
+  display: flex;
+  margin:20px;
+  // justify-content: space-evenly;
+}
+
+.item{
+  padding: 10px;
+}
+// .attributes, .values{
+//   font-size: larger;
+//   margin: 20px;
+//   display: flex;
+// }
+.attributes{
+  width: 200px;
+}
+
+.values{
+  background-color: antiquewhite;
+}
+
+// .item{
+//   padding: 10px;
+// }

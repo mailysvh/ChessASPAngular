@@ -1,0 +1,56 @@
+<h2>Tournament : {{tournamenttoRead.name}}</h2>
+<div class="formsDiv">
+  <div class="LeftPanel">
+    <div class="attributes">
+        <p class="item">Name: </p>
+        <p class="item">Location: </p>
+        <p class="item">Minimum Players:</p>
+        <p class="item">Maximum Players: </p>
+        <p class="item">eloMin: </p>
+        <p class="item">eloMax: </p>
+        <p class="item">Categories: </p>
+        <p class="item">womenOnly: </p>
+      </div>
+      <div class="values">
+          <p class="item">{{tournamenttoRead.name}}</p>
+          <p class="item">{{tournamenttoRead.location}}</p>
+          <p class="item">{{tournamenttoRead.minimumPlayers}}</p>
+          <p class="item">{{tournamenttoRead.maximumPlayers}}</p>
+          <p class="item">{{tournamenttoRead.eloMin}}</p>
+          <p class="item">{{tournamenttoRead.eloMax}}</p>
+          <p class="item">{{tournamenttoRead.categories | isNull}}</p>
+          <p class="item">{{tournamenttoRead.womenOnly}}</p>
+        </div>
+    </div>
+  <div class="RightPanel">
+    <div class="attributes">
+      <p class="item">Current State: </p>
+      <p class="item">Current Round: </p>
+      <p class="item">End of Registration Date: </p>
+      <p class="item">Creation Date: </p>
+      <p class="item">Update Date: </p>
+      <p class="item">Number of Players: </p>
+      <p class="item">Can you register: </p>
+      <p class="item">Are you already registered: </p>
+    </div>
+    <div class="values">
+      <p class="item">{{tournamenttoRead.currentState}}</p>
+      <p class="item">{{tournamenttoRead.currentRound}}</p>
+      <p class="item">{{tournamenttoRead.endOfRegistrationDate | date}}</p>
+      <p class="item">{{tournamenttoRead.creationDate | date}}</p>
+      <p class="item">{{tournamenttoRead.updateDate | date}}</p>
+      <p class="item">{{tournamenttoRead.numberOfPlayers | isNull}}</p>
+      <p class="item">{{tournamenttoRead.canRegister}}</p>
+      <p class="item">{{tournamenttoRead.isRegistered}}</p>
+    </div>
+  </div>
+</div>
+<div class="attributes">
+  <p class="item">Participants: </p>
+</div>
+<div class="values">
+  <p class="item">{{tournamenttoRead.participants | isNull}}</p>
+</div>
+  <div class="item">
+    <button pButton pRipple type="submit" label="Update Infos" class="p-button-sm p-button-rounded p-button-danger" (click)="goToUpdateTournamentPage(tournamenttoRead.id)"></button>
+  </div>

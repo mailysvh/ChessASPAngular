@@ -1,0 +1,26 @@
+ul{
+  list-style-type : none;
+  padding: 10px;
+}
+
+a {
+  color : black;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.children{
+  font-size:medium;
+}
+
+.category {
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+*{
+  background-color: lavender;
+  overflow: auto;
+}
+

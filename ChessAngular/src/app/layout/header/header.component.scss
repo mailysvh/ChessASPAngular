@@ -1,0 +1,34 @@
+
+#myButton, #myButton2{
+  //background-color: pink;
+  background: antiquewhite;
+  //border: pink ;
+  color: black ;
+  border: lavenderblush solid 5px ;
+}
+
+.header{
+  background-color: #ff7f50;
+  color:antiquewhite;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid lavender;
+  width: 100%;
+}
+
+#myButton:focus, #myButton2:focus{
+  box-shadow: purple;
+  box-shadow: gold !important;
+}
+
+.p-button:focus {
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #faebd7, 0 1px 2px 0 black;
+}
+
+h1{
+  //font-family: monospace;
+  font-size: xxx-large;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}

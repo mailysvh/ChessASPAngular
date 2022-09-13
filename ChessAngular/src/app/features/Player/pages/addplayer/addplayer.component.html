@@ -1,0 +1,40 @@
+<h2>Add a new player</h2>
+<form [formGroup]="fg"  (ngSubmit)="submit()">
+  <div class="formsDiv">
+    <div class="leftPanel">
+      <div class="item">
+          <label>Name</label>
+          <input type="text" formControlName="login">
+      </div>
+      <div class="item">
+        <label>Email</label>
+        <input type="text" formControlName="email">
+      </div>
+      <div class="item">
+        <label>Password</label>
+          <input type="password" formControlName="password">
+      </div>
+
+  </div>
+  <div class="rightPanel">
+    <div class="item">
+      <label>Birthdate</label>
+      <!-- <i class="input-calendar-icon" ng-calendar ng-model="modelDate"></i> -->
+      <input type="date" formControlName="birthdate">
+    </div>
+      <div class="item">
+        <label>ELO</label>
+        <!-- slider? -->
+        <input type="number" formControlName="elo">
+      </div>
+      <div class="item">
+        <label>Gender</label>
+        <p-selectButton [options]="genderOptions" formControlName="playerGender" optionLabel="label" optionValue="value"></p-selectButton>
+      </div>
+    </div>
+  </div>
+    <div class="item">
+      <button pButton pRipple type="submit" label="Submit" class="p-button-sm p-button-rounded p-button-danger" ></button>
+  </div>
+</form>
+

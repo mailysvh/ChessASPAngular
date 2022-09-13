@@ -1,0 +1,38 @@
+<header>
+  <p-button label="Add Tournament" icon="pi pi-plus" styleClass="p-button-sm p-button-secondary" (click)="goToAddTournamentPage()"></p-button>
+</header>
+
+<table class="table">
+  <thead>
+      <tr>
+          <th>id</th>
+          <th>Name</th>
+          <th>Location</th>
+          <th>CreationDate</th>
+          <th>EndRegistration</th>
+          <th>EloMin</th>
+          <th>WomenOnly</th>
+          <th>Status</th>
+          <th>Actions</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let t of tournamentList">
+          <td>{{t.id | slice:0:8}}</td>
+          <td>{{t.name}}</td>
+          <td>{{t.location}}</td>
+          <td>{{t.creationDate | date}}</td>
+          <td>{{t.endOfRegistrationDate | date}}</td>
+          <td>{{t.eloMin}}</td>
+          <td>{{t.womenOnly}}</td>
+          <td>{{t.currentState | status}}</td>
+          <td>
+            <div class="Buttons">
+            <button pButton pRipple type="button" icon="pi pi-search" class="p-button-rounded p-button-success" (click)="displayTournament(t.id)"></button>
+            <button pButton pRipple type="button" icon="pi pi-check" class="p-button-rounded"></button>
+            <button pButton pRipple type="button" icon="pi pi-times" class="p-button-rounded p-button-danger" (click)="removeTournament(t.id)"></button>
+          </div>
+          </td>
+      </tr>
+  </tbody>
+</table>

@@ -1,0 +1,27 @@
+.table{
+  border: solid black 1px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+th{
+  font-size: larger;
+  border-bottom: black thick double;
+  margin-bottom: 10px;
+}
+
+header{
+  margin-bottom: 20px;
+}
+
+h2{
+  margin-left: 40px;
+  text-align: center;
+}
+
+.Buttons{
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+}

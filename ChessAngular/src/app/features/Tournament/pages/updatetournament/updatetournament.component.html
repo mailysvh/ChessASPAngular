@@ -1,0 +1,45 @@
+<!-- <h2>Tournament : {{tournamenttoUpDate.name}}</h2> -->
+<div class="formsDiv" [formGroup]="fg">
+  <div class="LeftPanel">
+    <div class="attributes">
+        <p class="item">Name: </p>
+        <p class="item">Location: </p>
+        <p class="item">Minimum Players:</p>
+        <p class="item">Maximum Players: </p>
+        <p class="item">eloMin: </p>
+        <p class="item">eloMax: </p>
+
+      </div>
+      <div class="values">
+        <input type="text" formControlName="name">
+        <input type="text" formControlName="location">
+        <input type="number" formControlName="minimumPlayers">
+        <input type="number" formControlName="maximumPlayers">
+        <input type="number" formControlName="eloMin">
+        <input type="number" formControlName="eloMax">
+
+    </div>
+  <div class="RightPanel">
+    <div class="attributes">
+      <p class="item">Categories: </p>
+      <p class="item">womenOnly: </p>
+      <p class="item">Current State: </p>
+      <p class="item">Current Round: </p>
+      <p class="item">End of Registration Date: </p>
+      <p class="item">Creation Date: </p>
+    </div>
+    <div class="values">
+      <p-multiSelect [options]="stateChoice" formControlName="currentState"></p-multiSelect>
+      <p-multiSelect [options]="roundChoice" formControlName="currentState"></p-multiSelect>
+      <input type="date" formControlName="endOfRegistrationDate">
+      <input type="date" formControlName="creationDate">
+      <p-multiSelect [options]="categoryChoice" formControlName="categories"></p-multiSelect>
+      <p-inputSwitch formControlName="womenOnly"></p-inputSwitch>
+    </div>
+  </div>
+</div>
+
+</div>
+  <div class="item">
+    <button pButton pRipple type="submit" label="Update Infos" class="p-button-sm p-button-rounded p-button-danger" ></button>
+  </div>

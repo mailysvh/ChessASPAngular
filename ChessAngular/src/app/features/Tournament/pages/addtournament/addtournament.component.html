@@ -1,0 +1,49 @@
+<h2>Add a new tournament</h2>
+<form [formGroup]="fg"  (ngSubmit)="submit()">
+  <div class="formsDiv">
+    <div class="leftPanel">
+      <div class="item">
+          <label>Name</label>
+          <input type="text" formControlName="name">
+      </div>
+      <div class="item">
+        <label>Location</label>
+        <input type="text" formControlName="location">
+      </div>
+      <div class="item">
+        <label>MinPlayers</label>
+        <input type="text" formControlName="minimumPlayers">
+      </div>
+      <div class="item">
+        <label>MaxPlayers</label>
+        <input type="text" formControlName="maximumPlayers">
+      </div>
+      <div class="item">
+        <label>eloMin</label>
+        <input type="text" formControlName="eloMin">
+      </div>
+      <div class="item">
+        <label>eloMax</label>
+        <input type="text" formControlName="eloMax">
+      </div>
+    </div>
+    <div class="rightPanel">
+      <div class="item">
+        <label>endOfRegistrationDate</label>
+        <input type="date" formControlName="endOfRegistrationDate">
+      </div>
+      <div class="item">
+        <label>Categories</label>
+        <p-multiSelect [options]="categoryChoice" formControlName="categories"></p-multiSelect>
+      </div>
+      <div class="item">
+        <label>womenOnly</label>
+        <p-inputSwitch formControlName="womenOnly"></p-inputSwitch>
+      </div>
+    </div>
+  </div>
+
+    <div class="item">
+      <button pButton pRipple type="submit" label="Submit" class="p-button-sm p-button-rounded p-button-danger" [disabled]="isLoading"></button>
+    </div>
+</form>
