@@ -1,0 +1,14 @@
+C:\Users\Student\source\repos\APIProdChess\APIProdChessDAL\bin\Debug\net6.0\APIProdChessDAL.deps.json
+C:\Users\Student\source\repos\APIProdChess\APIProdChessDAL\bin\Debug\net6.0\APIProdChessDAL.runtimeconfig.json
+C:\Users\Student\source\repos\APIProdChess\APIProdChessDAL\bin\Debug\net6.0\APIProdChessDAL.dll
+C:\Users\Student\source\repos\APIProdChess\APIProdChessDAL\bin\Debug\net6.0\APIProdChessDAL.pdb
+C:\Users\Student\source\repos\APIProdChess\APIProdChessDAL\obj\Debug\net6.0\APIProdChessDAL.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\APIProdChess\APIProdChessDAL\obj\Debug\net6.0\APIProdChessDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\APIProdChess\APIProdChessDAL\obj\Debug\net6.0\APIProdChessDAL.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\APIProdChess\APIProdChessDAL\obj\Debug\net6.0\APIProdChessDAL.AssemblyInfo.cs
+C:\Users\Student\source\repos\APIProdChess\APIProdChessDAL\obj\Debug\net6.0\APIProdChessDAL.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\APIProdChess\APIProdChessDAL\obj\Debug\net6.0\APIProdChessDAL.dll
+C:\Users\Student\source\repos\APIProdChess\APIProdChessDAL\obj\Debug\net6.0\refint\APIProdChessDAL.dll
+C:\Users\Student\source\repos\APIProdChess\APIProdChessDAL\obj\Debug\net6.0\APIProdChessDAL.pdb
+C:\Users\Student\source\repos\APIProdChess\APIProdChessDAL\obj\Debug\net6.0\APIProdChessDAL.genruntimeconfig.cache
+C:\Users\Student\source\repos\APIProdChess\APIProdChessDAL\obj\Debug\net6.0\ref\APIProdChessDAL.dll
