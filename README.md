@@ -1,7 +1,7 @@
 # Chess Tournaments Application
-> **Chess Tournaments Showcase Application with `ASP.NET` and `AngularJS`**  
+> **Chess Tournaments Application with `ASP.NET` and `AngularJS`**  
 
-This a showcase project for my Angular and C# courses.
+This a practice project for my Angular and C# courses.
 
 ![Chess Application Angular](chess1.JPG)
 
