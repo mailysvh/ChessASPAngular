@@ -6,7 +6,7 @@ This a practice project for my Angular and C# courses.
 ![Chess Application Angular](chess1.JPG)
 
 ## Description:  
-Chess Tournament Application with Responsive UI with AngularJS (+ accordion menu). 
+Chess Tournament Application with Responsive UI with AngularJS. 
 Connects to local Database with Entity Framework. 
 
 Current main tables:
