@@ -71,9 +71,9 @@ This project is on hiatus and I am not planning on finishing it at this time.
 `AngularJS`   
 
 - Make sure to download and install node.js and the above libraries
-- Open a new terminal
-- Enter: 'npm install'  
-- Enter: 'ng serve'  
-- Import the libraries in the app.module.ts imports.
+- Import the libraries in the app.module.ts imports
+- Open a new terminal  
+&nbsp;&nbsp&nbsp;&nbsp;;- Enter: 'npm install'  
+&nbsp;&nbsp;&nbsp;&nbsp;- Enter: 'ng serve'  
 
 Make sure to read the specific readmes and the docs if you're not familiar with the technologies
