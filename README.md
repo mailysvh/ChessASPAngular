@@ -7,14 +7,22 @@ This a practice project for my Angular and C# courses.
 
 ## Description:  
 Chess Tournament Application with Responsive UI with AngularJS (+ accordion menu). 
-Connects to local Database with Entity Framework.
+Connects to local Database with Entity Framework. 
+
 Current main tables:
 
- - Player
- - Tournament  
+`Player`  
+ - List + Details (+ Update ongoing)
+ - Add  
  
-You can login to the app (only the admin adds users) and the login button disappears.  
-View list, add to table, remove from table, view details of players or tournaments. (Update ongoing)  
+`Tournament`  
+ - List + Details (+ Update ongoing)
+ - Add
+ 
+There is an accordion nav on the left. You can login to the app with the button on the right, and the login button disappears (I planned on adding more validators).   
+
+Forms are sent with observables by the service to the backend in ASP.NET.
+
 
 ![Chess Application Angular](chess2.JPG)  
 ![Chess Application Angular](chess3.JPG)
