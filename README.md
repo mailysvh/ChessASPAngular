@@ -19,7 +19,9 @@ Current main tables:
  - List + Details (+ Update ongoing)
  - Add
  
-There is an accordion nav on the left. You can login to the app with the button on the right, and the login button disappears (I planned on adding more validators).   
+There is an accordion nav on the left.   
+You can login to the app with the button on the right, and the login button disappears (I planned on adding more validators).   
+The passwords are hashed by a function in the AuthService in ASP.NET and uses Jwt to validate tokens.
 
 Forms are sent with observables by the service to the backend in ASP.NET.
 
@@ -28,7 +30,7 @@ Forms are sent with observables by the service to the backend in ASP.NET.
 ![Chess Application Angular](chess3.JPG)
 
 ## Technologies used:
-**C#, ASP.NET, AngularJS, Typescript, API, Entity, HTML, CSS, JS, Microsoft SQL SMS, Swagger**
+**C#, ASP.NET, AngularJS, Typescript, API, Entity, HTML, CSS, JS, Microsoft SQL SMS, Swagger, Jwt**
 
 Main libraries:   
 `ASP.NET`
@@ -73,7 +75,7 @@ This project is on hiatus and I am not planning on finishing it at this time.
 - Make sure to download and install node.js and the above libraries
 - Import the libraries in the app.module.ts imports
 - Open a new terminal  
-&nbsp;&nbsp&nbsp;&nbsp;;- Enter: 'npm install'  
-&nbsp;&nbsp;&nbsp;&nbsp;- Enter: 'ng serve'  
+&nbsp;&nbsp;&nbsp;&nbsp; - Enter: 'npm install'  
+&nbsp;&nbsp;&nbsp;&nbsp; - Enter: 'ng serve'  
 
 Make sure to read the specific readmes and the docs if you're not familiar with the technologies
