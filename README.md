@@ -54,17 +54,26 @@ This project is on hiatus and I am not planning on finishing it at this time.
 - Start the actual tournament round 
 - Display results
 - Add rules
-- Simulate rounds with player ELO
+- Simulate rounds with player ELO  
+- ..  
 
-## Installation
-`ASP.NET`  
-Make sure to download and install the Nuget Packages  
-Uncomment the send email features in the controllers  
-Add your connectionStrings data in the appsettings.Developpment.json  
-Change your email and password in the SMTP in appsettings.json  
-Add your signature in the appsettings.json  
-Build your admin entity directly in the ChessContext  
-`AngularJS`  
-Make sure to download and install node.js and the libraries  
-npm install  
-ng serve
+## Installation  
+`ASP.NET`   
+
+- Make sure to download and install the Nuget Packages  
+- Uncomment the send email features in the controllers  
+- Add your connectionStrings data in the appsettings.Developpment.json  
+- Change your email and password in the SMTP in appsettings.json  
+- Add your signature in the appsettings.json  
+- (Build your admin entity directly in the ChessContext)  
+
+
+`AngularJS`   
+
+- Make sure to download and install node.js and the above libraries
+- Open a new terminal
+- Enter: 'npm install'  
+- Enter: 'ng serve'  
+- Import the libraries in the app.module.ts imports.
+
+Make sure to read the specific readmes and the docs if you're not familiar with the technologies
