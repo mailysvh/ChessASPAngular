@@ -1,12 +1,12 @@
 # Chess Tournaments Application
-> **Chess Tournaments Application with `ASP.NET` and `AngularJS`**  
+> **Chess Tournaments Application with `ASP.NET` and `Angular`**  
 
 This a practice project for my Angular and C# courses.
 
 ![Chess Application Angular](chess1.JPG)
 
 ## Description:  
-Chess Tournament Application with Responsive UI with AngularJS. 
+Chess Tournament Application with Responsive UI with Angular. 
 Connects to local Database with Entity Framework. 
 
 Current main tables:
@@ -30,7 +30,7 @@ Forms are sent with observables by the service to the backend in ASP.NET.
 ![Chess Application Angular](chess3.JPG)
 
 ## Technologies used:
-**C#, ASP.NET, AngularJS, Typescript, API, Entity, HTML, CSS, JS, Microsoft SQL SMS, Swagger, Jwt**
+**C#, ASP.NET, Angular, Typescript, API, Entity, HTML, CSS, JS, Microsoft SQL SMS, Swagger, Jwt**
 
 Main libraries:   
 `ASP.NET`
@@ -41,7 +41,7 @@ Main libraries:
  - Swashbuckle.AspNetCore  
  - LinQ
 
- `AngularJS`
+ `Angular`
  - FormsModule  
  - ReactiveFormsModule  
  - HttpClientModule  
@@ -70,7 +70,7 @@ This project is on hiatus and I am not planning on finishing it at this time.
 - (Build your admin entity directly in the ChessContext)  
 
 
-`AngularJS`   
+`Angular`   
 
 - Make sure to download and install node.js and the above libraries
 - Import the libraries in the app.module.ts imports
